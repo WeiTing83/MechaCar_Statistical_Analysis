@@ -7,7 +7,7 @@ MechaCar get the production troubles that are blocking the manufacturing team’
 - Calculating T-test to determine if PSI for each manufacturing lot is statistically different with mean population1500. 
 >
 ### Linear Regression to Predict MPG
-![Linear Regression](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/version1/Resources/linear.png)
+![Linear Regression](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/main/Resources/linear.png)
 >
 Q1. Which variables/coefficients provide a non-random amount of variance to the mpg values in the dataset?
 >
@@ -22,7 +22,7 @@ Q3. Does this linear model predict mpg of MechaCar prototypes effectively?
  Vehicle_length and ground_clearance have smaller p-values, so they have a significant relationship with predicting mpg. 
 >
 ### Create Visualizations for the Trip Analysis
-![Variance](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/version1/Resources/Variance.png)
+![Variance](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/main/Resources/Variance.png)
 >
 Q1. The design specifications for the MechaCar suspension coils indicate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually?
 >
@@ -33,17 +33,17 @@ Q1. The design specifications for the MechaCar suspension coils indicate that th
 #### < Lot1: t = 0, p-value = 1 > 0.05 >
 - Null hypothesis: mean at Lot1 is statistically similar with mean1500 
 >
-![t_lot1](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/version1/Resources/t_lot1.png)
+![t_lot1](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/main/Resources/t_lot1.png)
 >
 #### < Lot2: t = 0.51745>0.05, p-value = 0.6072> 0.05 >
 - Alternative hypothesis: mean at Lot2 is statistically a little different with mean1500 
 >
-![t_lot2](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/version1/Resources/t_lot2.png)
+![t_lot2](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/main/Resources/t_lot2.png)
 >
 #### < Lot3: t = -2.0916>-0.05, p-value = 0.04168< 0.05 >
 - Alternative hypothesis: mean at Lot3 is statistically different with mean1500, and this set of data are statistical significance. They probably have more outlier or something happened in this lot.
 >
-![t_lot3](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/version1/Resources/t_lot3.png)
+![t_lot3](https://github.com/WeiTing83/MechaCar_Statistical_Analysis/blob/main/Resources/t_lot3.png)
 >
 ### Summary
 Base on the data and analysis, we noticed: 
